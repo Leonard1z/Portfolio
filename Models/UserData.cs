@@ -12,6 +12,7 @@ namespace PortfolioPractice2.Models
         public string Description { get; set; }
         public string TelephoneNumber { get; set; }
         public string Email { get; set; }
+        public string AbotMeDescription { get; set; }
 
     }
 }
