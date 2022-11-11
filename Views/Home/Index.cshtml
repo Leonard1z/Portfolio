@@ -1,8 +1,23 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<UserData>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    @*Home Section*@
+<section class="home" id="home">
+    @foreach(var obj in Model){
+        <div class="social">
+            <a href="https://github.com/Leonard1z"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/leonard-zaberxha-7b6503207/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.google.com/gmail/about/"><i class='bx bxl-gmail'></i></a>
+        </div>
+        <div class="home-img">
+            <img src="/images/123.png" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>@obj.Name @obj.LastName</h1>
+            <h2>@obj.Work</h2>
+            <p>@obj.Description</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+        }
+</section>
+

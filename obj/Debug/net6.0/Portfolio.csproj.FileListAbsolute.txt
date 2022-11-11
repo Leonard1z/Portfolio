@@ -71,9 +71,7 @@ D:\Portfolio\obj\Debug\net6.0\Portfolio.RazorAssemblyInfo.cache
 D:\Portfolio\obj\Debug\net6.0\Portfolio.RazorAssemblyInfo.cs
 D:\Portfolio\obj\Debug\net6.0\staticwebassets.build.json
 D:\Portfolio\obj\Debug\net6.0\staticwebassets.development.json
-D:\Portfolio\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Portfolio\obj\Debug\net6.0\scopedcss\bundle\Portfolio.styles.css
-D:\Portfolio\obj\Debug\net6.0\scopedcss\projectbundle\Portfolio.bundle.scp.css
 D:\Portfolio\obj\Debug\net6.0\Portfolio.csproj.CopyComplete
 D:\Portfolio\obj\Debug\net6.0\Portfolio.dll
 D:\Portfolio\obj\Debug\net6.0\refint\Portfolio.dll

@@ -1,21 +1,25 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Portfolio.Models;
+using Portfolio.DataAccess;
 
 namespace Portfolio.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+   private readonly AppDbContext _db;
 
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
+
+        public HomeController(AppDbContext db)
+        {
+            _db = db;
+
+        }
 
     public IActionResult Index()
     {
-        return View();
+         IEnumerable<UserData> userDatas = _db.UserDatas;
+        return View(userDatas);
     }
 
     public IActionResult Privacy()

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace PortfolioPractice2.Models
+namespace Portfolio.Models
 {
     public class UserData
     {
