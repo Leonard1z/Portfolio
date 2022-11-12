@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5VWxkz2bHzSJVJwHKJ5TTvC2HVwb1mYyVg9tGbVyPJ4=",
+  "Hash": "Ot1z+8J4WIoX0Ld0J+BnDMPfckPkHDrDfMYNMHSL2NU=",
   "Source": "Portfolio",
   "BasePath": "_content/Portfolio",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\js.png"
+    },
+    {
+      "Identity": "D:\\Portfolio\\wwwroot\\images\\Leonard Zaberxha - CV.docx",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "images/Leonard Zaberxha - CV.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Leonard Zaberxha - CV.docx"
     },
     {
       "Identity": "D:\\Portfolio\\wwwroot\\images\\mysql.png",
