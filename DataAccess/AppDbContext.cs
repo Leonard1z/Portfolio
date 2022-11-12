@@ -13,6 +13,6 @@ namespace Portfolio.DataAccess
         {
                 
         }
-         public DbSet<UserData> UserDatas { get; set; }
+        //  public DbSet<UserData> UserDatas { get; set; }
     }
 }

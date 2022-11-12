@@ -12,7 +12,7 @@ namespace Portfolio.Models
         public string Description { get; set; }
         public string TelephoneNumber { get; set; }
         public string Email { get; set; }
-        public string AbotMeDescription { get; set; }
+        public string AboutMeDescription { get; set; }
 
     }
 }
